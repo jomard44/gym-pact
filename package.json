@@ -1,0 +1,24 @@
+{
+  "name": "gym-pact",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/jomard44/gym-pact#readme",
+  "bugs": {
+    "url": "https://github.com/jomard44/gym-pact/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomard44/gym-pact.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
