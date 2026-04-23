@@ -3,9 +3,11 @@ import dotenv from "dotenv";
 dotenv.config();
 import router from "./routes/router.js";
 import mongoose from "mongoose";
+import cors from "cors";
 
 const app = express();
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 app.use("/api", router);
 
 mongoose.connect(process.env.MONGO).then(
