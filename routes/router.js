@@ -4,5 +4,5 @@ import authRoutes from "./authRoutes.js"
 import pactRoutes from "./pactRoutes.js"
 
 router.use("/auth",authRoutes)
-router.use("/pact",pactRoutes)
+router.use("/pacts",pactRoutes)
 export default router

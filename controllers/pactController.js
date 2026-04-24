@@ -2,7 +2,7 @@ import Pact from "../models/pact.js";
 
 export const getPacts = async (req, res) => {
   try {
-    const pacts = await Pact.find();
+    const pacts = await Pact.find().populate("users");
     if (pacts.length === 0) {
       return res.status(404).json({ message: "no pacts avilable" });
     }
