@@ -1,8 +1,10 @@
 import Auth from "./components/Auth";
+import Dashboard from "./components/Dashboard";
 function App() {
   return (
     <>
-      <Auth />
+    <Dashboard />
+      {/* <Auth /> */}
     </>
   );
 }
